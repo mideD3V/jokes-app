@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 7rem;
+}
+
+#jokes {
+  width: 50%;
+  height: max-content;
+  background-color: rgb(67, 4, 4);
+  margin: auto;
+  padding-bottom: 2rem;
+  border-radius: 0 16px;
+}
+
+em {
+  position: absolute;
+  width: 100%;
+  right: 35%;
+  padding: 5px;
+  color: rgba(250, 235, 215, 0.311);
+  text-align: right;
+}
+
+em a {
+  color: rgba(250, 235, 215, 0.707);
+}
+
+.joke-ctn {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  margin: auto;
+  padding: 3rem 5rem;
+  gap: 1.5rem;
+  justify-content: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.joke-ctn h1 {
+  font-size: 3rem;
+  color: chocolate;
+  text-align: center;
+}
+
+.joke {
+  font-size: 20px;
+  text-align: center;
+}
+
+#crack-btn {
+  text-align: center;
+  margin: auto;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+#crack-btn:hover {
+  background-color: #fff;
+  color: chocolate;
+
+  cursor: pointer;
+
+  border: 1px solid chocolate;
+  transition: ease 0.15s;
+}
+
+@media screen and (max-width: 950px) {
+  #jokes {
+    width: 70%;
+  }
+  body {
+    background-color: red;
+    padding: 3rem 2rem;
+  }
+  .joke-ctn h1 {
+    font-size: 2.5rem;
+  }
+  .joke-ctn {
+    padding: 3rem;
+  }
+  #crack-btn {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #jokes {
+    width: 90%;
+  }
+
+  .joke-ctn h1 {
+    font-size: 1.8rem;
+  }
+
+  body {
+    padding: 3rem 1rem;
+  }
+}
