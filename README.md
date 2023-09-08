@@ -5,7 +5,8 @@ This app displays random jokes to help individuals feel better after going throu
 ## technologies
 - HTML
 - CSS
-- JAVASCRIPT
+- JavaScript
+- Fetch API
 
 ## Screenshot
 
