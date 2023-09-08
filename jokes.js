@@ -25,6 +25,7 @@ const crack = document.querySelector("#crack-btn");
 // };
 
 //GET JOKE FUNCTION
+
 crack.addEventListener("click", getJoke);
 
 async function getJoke(e) {
