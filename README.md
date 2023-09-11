@@ -1,4 +1,4 @@
-# jokes-app
+# Jokes App
 
 This app displays random jokes to help individuals feel better after going through some sort of stress.
 
@@ -6,7 +6,7 @@ This app displays random jokes to help individuals feel better after going throu
 https://jokes-app-mide.vercel.app/ 
 
 
-## technologies
+## Technologies used
 - HTML 
 - CSS
 - JavaScript
