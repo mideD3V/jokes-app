@@ -2,8 +2,12 @@
 
 This app displays random jokes to help individuals feel better after going through some sort of stress.
 
+### Live site: 
+https://jokes-app-mide.vercel.app/ 
+
+
 ## technologies
-- HTML
+- HTML 
 - CSS
 - JavaScript
 - Fetch API
